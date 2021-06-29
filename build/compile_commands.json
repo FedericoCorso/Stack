@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/Users/federicocorso/tpa/esercizi/Stack/build",
+  "command": "/usr/bin/clang++  -I/Users/federicocorso/tpa/esercizi/Stack/include -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/mainEntry.dir/main.cpp.o -c /Users/federicocorso/tpa/esercizi/Stack/main.cpp",
+  "file": "/Users/federicocorso/tpa/esercizi/Stack/main.cpp"
+},
+{
+  "directory": "/Users/federicocorso/tpa/esercizi/Stack/build",
+  "command": "/usr/bin/clang++  -I/Users/federicocorso/tpa/esercizi/Stack/include -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/mainEntry.dir/src/BasicStack.cpp.o -c /Users/federicocorso/tpa/esercizi/Stack/src/BasicStack.cpp",
+  "file": "/Users/federicocorso/tpa/esercizi/Stack/src/BasicStack.cpp"
+},
+{
+  "directory": "/Users/federicocorso/tpa/esercizi/Stack/build",
+  "command": "/usr/bin/clang++  -I/Users/federicocorso/tpa/esercizi/Stack/include -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/mainEntry.dir/src/CappedStack.cpp.o -c /Users/federicocorso/tpa/esercizi/Stack/src/CappedStack.cpp",
+  "file": "/Users/federicocorso/tpa/esercizi/Stack/src/CappedStack.cpp"
+},
+{
+  "directory": "/Users/federicocorso/tpa/esercizi/Stack/build/tests",
+  "command": "/usr/bin/clang++  -I/Users/federicocorso/tpa/esercizi/Stack/tests/../include -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/catch2Test.dir/catch2Main.cpp.o -c /Users/federicocorso/tpa/esercizi/Stack/tests/catch2Main.cpp",
+  "file": "/Users/federicocorso/tpa/esercizi/Stack/tests/catch2Main.cpp"
+},
+{
+  "directory": "/Users/federicocorso/tpa/esercizi/Stack/build/tests",
+  "command": "/usr/bin/clang++  -I/Users/federicocorso/tpa/esercizi/Stack/tests/../include -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/catch2Test.dir/TestStack.cpp.o -c /Users/federicocorso/tpa/esercizi/Stack/tests/TestStack.cpp",
+  "file": "/Users/federicocorso/tpa/esercizi/Stack/tests/TestStack.cpp"
+},
+{
+  "directory": "/Users/federicocorso/tpa/esercizi/Stack/build/tests",
+  "command": "/usr/bin/clang++  -I/Users/federicocorso/tpa/esercizi/Stack/tests/../include -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/catch2Test.dir/TestCapped.cpp.o -c /Users/federicocorso/tpa/esercizi/Stack/tests/TestCapped.cpp",
+  "file": "/Users/federicocorso/tpa/esercizi/Stack/tests/TestCapped.cpp"
+},
+{
+  "directory": "/Users/federicocorso/tpa/esercizi/Stack/build/tests",
+  "command": "/usr/bin/clang++  -I/Users/federicocorso/tpa/esercizi/Stack/tests/../include -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/catch2Test.dir/__/src/BasicStack.cpp.o -c /Users/federicocorso/tpa/esercizi/Stack/src/BasicStack.cpp",
+  "file": "/Users/federicocorso/tpa/esercizi/Stack/src/BasicStack.cpp"
+},
+{
+  "directory": "/Users/federicocorso/tpa/esercizi/Stack/build/tests",
+  "command": "/usr/bin/clang++  -I/Users/federicocorso/tpa/esercizi/Stack/tests/../include -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++17 -o CMakeFiles/catch2Test.dir/__/src/CappedStack.cpp.o -c /Users/federicocorso/tpa/esercizi/Stack/src/CappedStack.cpp",
+  "file": "/Users/federicocorso/tpa/esercizi/Stack/src/CappedStack.cpp"
+}
+]

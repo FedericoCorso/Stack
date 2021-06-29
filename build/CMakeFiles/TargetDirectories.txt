@@ -1,0 +1,6 @@
+/Users/federicocorso/tpa/esercizi/Stack/build/CMakeFiles/rebuild_cache.dir
+/Users/federicocorso/tpa/esercizi/Stack/build/CMakeFiles/edit_cache.dir
+/Users/federicocorso/tpa/esercizi/Stack/build/CMakeFiles/mainEntry.dir
+/Users/federicocorso/tpa/esercizi/Stack/build/tests/CMakeFiles/rebuild_cache.dir
+/Users/federicocorso/tpa/esercizi/Stack/build/tests/CMakeFiles/edit_cache.dir
+/Users/federicocorso/tpa/esercizi/Stack/build/tests/CMakeFiles/catch2Test.dir
