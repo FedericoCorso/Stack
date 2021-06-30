@@ -71,7 +71,7 @@ int main () {
  
    cout << endl;
    cout << "-----  CAPPED STACK" << endl;   
- /*
+ 
    CappedStack cs = CappedStack(2);
  
    Stack* ps2 = &cs;
@@ -139,7 +139,6 @@ int main () {
    cout << ps2->as_string() << endl;  // abcde
    ((CappedStack*) ps2)->set_cap(3);  // cutting characters in excess
    cout << ps2->as_string() << endl;  // abc
- */
  
    return 0;
 };
