@@ -8,7 +8,7 @@ using namespace std;
 
 //using std::string;
 
- 
+template <typename T>
 class Stack {
  
    public:
