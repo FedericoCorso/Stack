@@ -5,15 +5,15 @@ SCENARIO("The user initnialize a CappedStack obj","[CappedStack]"){
     WHEN("A negative cap is provided"){
         int cap = -1;
         THEN("CappedStack should throw invalid_argument"){
-            REQUIRE_THROWS_AS(CappedStack(cap),std::invalid_argument);
+            REQUIRE_THROWS_AS(CappedStack<char>(cap),std::invalid_argument);
         }
     }
 }
 
 SCENARIO("The user push an element in the Stack","[CappedStack::push]"){
     GIVEN("An existing CappedStack data structure and a Stack ptr to it"){
-        CappedStack CS(1);
-        Stack* cs = &CS;
+        CappedStack<char> CS(1);
+        Stack<char>* cs = &CS;
         cs -> push('a');
 
         WHEN("When the user push new element but reaches cap size"){
@@ -31,8 +31,8 @@ SCENARIO("The user push an element in the Stack","[CappedStack::push]"){
 
 SCENARIO("The user want to know cap size","[CappedStack::get_cap]"){
     GIVEN("An existing CappedStack data structure and a Stack ptr to it"){
-        CappedStack CS(3);
-        Stack* cs = &CS;
+        CappedStack<char> CS(3);
+        Stack<char>* cs = &CS;
 
         WHEN("get_cap method called should return current cap size"){
             /*
@@ -53,8 +53,8 @@ SCENARIO("The user want to know cap size","[CappedStack::get_cap]"){
 }
 SCENARIO("The user want to set a new cap size","[CappedStack::set_size]"){
     GIVEN("An existing CappedStack data structure and a Stack ptr to it"){
-        CappedStack CS(2);
-        Stack* cs = &CS;
+        CappedStack<char> CS(2);
+        Stack<char>* cs = &CS;
         //insert an element
         cs -> push('a');
         cs -> push('b');
@@ -83,7 +83,8 @@ SCENARIO("The user want to set a new cap size","[CappedStack::set_size]"){
             THEN("Update the current size w/ new one and make no changes"){
                 REQUIRE(CS.get_cap()==3);
                 REQUIRE(cs->size()==2);
-                REQUIRE(cs->peekn(cs->size())== "ab");
+                vector<char> v1 = {'a','b'};
+                REQUIRE(cs->peekn(cs->size())== v1);
             }
         }
 

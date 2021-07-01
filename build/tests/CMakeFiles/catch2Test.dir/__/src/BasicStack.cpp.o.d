@@ -224,4 +224,7 @@ tests/CMakeFiles/catch2Test.dir/__/src/BasicStack.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
   /Users/federicocorso/tpa/esercizi/Stack/tests/../include/BasicStack.h \
-  /Users/federicocorso/tpa/esercizi/Stack/tests/../include/Stack.h
+  /Users/federicocorso/tpa/esercizi/Stack/tests/../include/Stack.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
