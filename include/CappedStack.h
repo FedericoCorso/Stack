@@ -24,18 +24,18 @@ class CappedStack : public BasicStack<T>{
                CappedStack: cap=4 elements=ab
         /// da implementare diversamente da BasicStack
        */
-       string as_string() const;
+       virtual string as_string() const;
 
     /** Adds item to the top of the stack, if current size is within cap.
               
                - If stack size is already at cap value, new item is silently discarded
         /// va implementato diff. da BS
        */
-       void push(const T c);
+       virtual void push(const T c);
 
     /** RETURN the cap of the stack
        */
-        virtual int get_cap() const;
+        int get_cap() const;
      
     /** MODIFIES the cap setting its value to the provided cap.
           
@@ -63,7 +63,7 @@ class CappedStack : public BasicStack<T>{
                        1  a                               
               
         */
-       virtual void set_cap(const int cap);
+       void set_cap(const int cap);
 
 };
 
@@ -87,7 +87,7 @@ string CappedStack<T>:: as_string() const{
     s += std::to_string(this->cap);
     s += " elements: ";
     stringstream ss;
-    for (int i = 0; this->size()-1;i++){
+    for (int i = 0; i < this->size();i++){
         ss << this->elements[i]; 
     } // con questo ciclo metto in coda in ss gli elementi contenuti in vector
     

@@ -5,7 +5,6 @@ tests/CMakeFiles/catch2Test.dir/TestCapped.cpp.o
  /Users/federicocorso/tpa/esercizi/Stack/tests/TestCapped.cpp
  /Users/federicocorso/tpa/esercizi/Stack/include/CappedStack.h
  /Users/federicocorso/tpa/esercizi/Stack/include/BasicStack.h
- /Users/federicocorso/tpa/esercizi/Stack/include/Stack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h
@@ -229,9 +228,10 @@ tests/CMakeFiles/catch2Test.dir/TestCapped.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
+ /Users/federicocorso/tpa/esercizi/Stack/include/Stack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer
- /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
  /Users/federicocorso/tpa/esercizi/Stack/include/catch2/catch2.hpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional
@@ -245,7 +245,6 @@ tests/CMakeFiles/catch2Test.dir/TestCapped.cpp.o
 tests/CMakeFiles/catch2Test.dir/TestStack.cpp.o
  /Users/federicocorso/tpa/esercizi/Stack/tests/TestStack.cpp
  /Users/federicocorso/tpa/esercizi/Stack/include/BasicStack.h
- /Users/federicocorso/tpa/esercizi/Stack/include/Stack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h
@@ -469,9 +468,10 @@ tests/CMakeFiles/catch2Test.dir/TestStack.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
+ /Users/federicocorso/tpa/esercizi/Stack/include/Stack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer
- /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
  /Users/federicocorso/tpa/esercizi/Stack/include/catch2/catch2.hpp
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional
@@ -708,16 +708,15 @@ tests/CMakeFiles/catch2Test.dir/__/src/BasicStack.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference
  /Users/federicocorso/tpa/esercizi/Stack/include/BasicStack.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
  /Users/federicocorso/tpa/esercizi/Stack/include/Stack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer
- /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
 
 tests/CMakeFiles/catch2Test.dir/__/src/CappedStack.cpp.o
  /Users/federicocorso/tpa/esercizi/Stack/src/CappedStack.cpp
  /Users/federicocorso/tpa/esercizi/Stack/include/CappedStack.h
  /Users/federicocorso/tpa/esercizi/Stack/include/BasicStack.h
- /Users/federicocorso/tpa/esercizi/Stack/include/Stack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h
@@ -941,9 +940,10 @@ tests/CMakeFiles/catch2Test.dir/__/src/CappedStack.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
+ /Users/federicocorso/tpa/esercizi/Stack/include/Stack.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer
- /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream
 
 tests/CMakeFiles/catch2Test.dir/catch2Main.cpp.o
  /Users/federicocorso/tpa/esercizi/Stack/tests/catch2Main.cpp

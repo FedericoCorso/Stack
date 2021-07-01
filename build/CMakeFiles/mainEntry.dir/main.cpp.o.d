@@ -224,5 +224,8 @@ CMakeFiles/mainEntry.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
   /Users/federicocorso/tpa/esercizi/Stack/include/Stack.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream \
   /Users/federicocorso/tpa/esercizi/Stack/include/BasicStack.h \
   /Users/federicocorso/tpa/esercizi/Stack/include/CappedStack.h

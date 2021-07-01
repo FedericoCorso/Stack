@@ -1,23 +1,24 @@
 #ifndef BASIC_STACK_H
 #define BASIC_STACK_H
-/**
- * Devo includere la libreria contenente l'interfaccia da
- * implementare
-*/
-#include "Stack.h"
-#include <stdexcept>
+#include <iostream>
+#include <string>       
+#include <sstream>      // std::stringstream, std::stringbuf
 
-/**
- * Classe derivata da Stack, ho gli stessi metodi, 
- * tuttavia devo implementarli.
-*/
+#include <Stack.h>
+#include <vector>
+#include <algorithm>
+
+using std::vector;
+using std::to_string;
+using std::string;
+
 template <typename T> // la classe BasicStack è una classe templetizzata, proprio come la classe base Stack
 
 // definizione della classe BasicStack
 class BasicStack : public Stack<T>{
 
     protected: //attributi della classe derivata
-    /**
+    /*
      * Questi attributi ricordiamo essere accessibili solo 
      * dalla classe in cui sono definiti + sottoclassi, questo significa
      * che nelle sottoclassi non dovrò ridichiarare questi 
@@ -37,23 +38,23 @@ class BasicStack : public Stack<T>{
         */
         BasicStack(vector<T> data);
 
-        int size() const;
+        virtual int size() const;
 
-        string as_string() const;
+        virtual string as_string() const;
        
-        bool is_empty() const;
+        virtual bool is_empty() const;
  
-        void push(const T c);
+        virtual void push(const T c);
  
-        T peek() const;
+        virtual T peek() const;
  
-        T pop();
- 
-       
-        vector<T> peekn(const int n) const;
+        virtual T pop();
  
        
-        vector<T> popn(const int n);
+        virtual vector<T> peekn(const int n) const;
+ 
+       
+        virtual vector<T> popn(const int n);
 
         /*
         Osservo come siano stati eliminati dalle dichiarazioni dei
@@ -99,7 +100,7 @@ string BasicStack<T>::as_string() const{ //meglio implementare all'inizio metodi
     string s = "BasicStack ";
     s += " elements: ";
     stringstream ss;
-    for (int i = 0; this->size()-1;i++){
+    for (int i = 0; i < this->elements.size();i++){
         ss << this->elements[i]; 
     } // con questo ciclo metto in coda in ss gli elementi contenuti in vector
     
